@@ -12,9 +12,18 @@ struct TaskModel: Identifiable, Hashable {
     
     var id: UUID
     
-    private var taskDescription: String
-    private var taskIsCompleted: Bool
-    private var taskOwner: String
+    var taskDescription: String
+    var taskIsCompleted: Bool
+    var taskOwner: String
+    
+    init(id: UUID, taskIsCompleted: Bool, taskOwner: String, taskDescription: String) {
+        
+        self.id = id
+        self.taskDescription    = taskDescription
+        self.taskOwner          = taskOwner
+        self.taskIsCompleted    = taskIsCompleted
+    }
+    
     
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)

@@ -13,6 +13,7 @@
 		891CAC1B260D6B640096A40E /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CAC1A260D6B640096A40E /* LandingPage.swift */; };
 		891CAC1F260D6C460096A40E /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CAC1E260D6C460096A40E /* TaskModel.swift */; };
 		891CAC22260D6DAF0096A40E /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CAC21260D6DAF0096A40E /* TaskViewController.swift */; };
+		891CAC27260D72A00096A40E /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CAC26260D72A00096A40E /* TaskRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		891CAC1A260D6B640096A40E /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
 		891CAC1E260D6C460096A40E /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 		891CAC21260D6DAF0096A40E /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		891CAC26260D72A00096A40E /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				891CAC1A260D6B640096A40E /* LandingPage.swift */,
 				891CAC1E260D6C460096A40E /* TaskModel.swift */,
 				891CAC21260D6DAF0096A40E /* TaskViewController.swift */,
+				891CAC26260D72A00096A40E /* TaskRowView.swift */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				891CAC27260D72A00096A40E /* TaskRowView.swift in Sources */,
 				891CAC1F260D6C460096A40E /* TaskModel.swift in Sources */,
 				891CAC22260D6DAF0096A40E /* TaskViewController.swift in Sources */,
 				891CAC0B260D6ADE0096A40E /* ToDoAppApp.swift in Sources */,

@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct LandingPage: View {
+    
+    @ObservedObject var taskControl: TaskViewController = TaskViewController()
+    
     var body: some View {
-        Text("Hello from Landing Page")
+        List(taskControl.taskData) {task in
+            
+            TaskRowView(task: task)
+            Divider()
+        }
+        
     }
 }
 
